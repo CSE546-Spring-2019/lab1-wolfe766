@@ -1,0 +1,13 @@
+Author: Sam Wolfe
+Project 1
+
+To build: run 'make'
+
+Command line syntax:
+
+./count <inputfile> <search string> <outputfile>
+
+eg:
+
+./count input.txt test output.txt
+
