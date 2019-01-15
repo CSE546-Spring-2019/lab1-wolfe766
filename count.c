@@ -132,8 +132,8 @@ int main(int argc, char *argv[]){
     printf("File Size: %i\n", fileSize);
     printf("Total Matches: %i\n",totalMatches);
     fclose(inputFile);
-    unsigned char writeBuffer[] = "Size of file is ";
     fprintf(outputFile, "Size of file is: %d\nNumber of matches = %d\n",fileSize,totalMatches);
+    fclose(outputFile);
 }
 
 //Returns the last checked index by the main loop
